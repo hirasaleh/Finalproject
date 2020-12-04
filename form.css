@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(image/image\ 1.jpg) no-repeat center center fixed;
+    
+    background-size: cover;
+    
+}
+.container{
+    color: rgb(241, 182, 18);
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+.container h1{
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 5px solid rgb(188, 206, 23);
+    margin-bottom: 30px;
+    padding: 13px 0;
+}
+.container p{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 5px;
+        margin-bottom: 20px;
+    padding: 5px 0;
+}
+
+.box{
+    width: 100%;
+    margin: 10px 0px;
+
+    border-bottom: 2px solid greenyellow;
+}
+.box label{
+    padding: 0 2px;
+   width: 25px;
+   text-align: center;
+}
+
+
+.box input{
+    
+    background: none;
+    width: 75%;
+    padding: 2px 4px;
+    font-size: 20px;
+    border: none;
+   outline: none;
+    color: rgb(153, 240, 24);
+}
+.chooseVehical{
+    background:greenyellow;
+    width: 75%;
+    padding: 2px 4px;
+    font-size: 20px;
+    border: none;
+   outline: none;
+    color: black;
+
+
+}
+.form-control{
+    background: none;
+    
+    width: 75%;
+    padding: 2px 4px;
+    font-size: 20px;
+    border: none;
+   outline: none;
+    color:greenyellow;
+
+}
+.btn{
+    color:greenyellow;
+    cursor: pointer;
+    outline: none;
+    width: 25%;
+    margin: 12px 0;
+    padding: 10px;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    font-weight: bold;
+}
+.btn:hover{
+    
+    color: rgb(161, 192, 115);
+    background:deepskyblue;
+}

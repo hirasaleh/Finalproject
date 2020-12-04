@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    
+    <div class="container">
+     
+            <h1>Connect With Us</h1>
+            <p>"There are no trafic jams along the extra mile"</p>
+        
+    
+    <form>
+        <div class="box">
+          <label for="inputName">Company name</label>
+          <input type="text" id = "inputName" placeholder="Enter your company name">
+        </div>
+        <div class="box">
+          <label for="inputEmail">Email</label>
+          <input type="email" id="inputEmail" placeholder="please enter your email">
+        </div>
+        <div class="box">
+            <label for="inputNumber">Phone no:</label>
+            <input type="text" id = "inputNumber" placeholder="Enter your contact number">
+          </div>
+          <div class="box">
+            <label for="inputAddress">Address:</label>
+            <input type="text" id = "inputAddress" placeholder="Enter your Pickup Address">
+          </div>
+          <div class="box">
+            <label for="inputAddress">Vehical type</label>
+            <select class="chooseVehical" id="chooseVehical">
+                <option selected>select vehical type</option>
+                <option value="1">Van</option>
+                <option value="2">Minivan</option>
+                <option value="3">Car</option>
+                <option value="3">Bus</option>
+            </select>
+            </div>
+            <div class="box">
+                <label for="inputDate">PickUp date</label>
+             <input type="date" id="inputDate" value="mm/ dd/ yyyy">
+            </div>
+            <div class="box">
+                <label for="inputNumber">PickUp time</label>
+                <input id="inputTime" type="time" name="inputTime" value="--:-- PM">
+            </div>        
+        <button type="submit" class="btn" id= "booking">Book now</button>
+      </form>
+      </div>
+</body>
+</html>
